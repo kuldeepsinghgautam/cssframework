@@ -1,1 +1,106 @@
 
+/*  TO USE THESE CODE JUST ADD IN YOUR STYLE SHEET AND USE class="classname" where you want to use     */
+
+
+*{ 
+  margin: 0; 
+  padding: 0;
+	text-decoration: none;
+}
+
+
+
+/*   ADD THIS FOR SMOOTH SCROLL EFFECT  */
+
+html {scroll-behavior: smooth;}
+
+
+/* DIV Green background with 30% opacity */
+div {
+  background: rgba(0, 128, 0, 0.3) 
+}
+
+
+
+
+/*------------------------------------------ BACKGROUND COLOR ----------------------------------------------------------*/
+
+/*  BACKGROUND COLOR DodgerBlue  */
+.mpy-bg-db {background-color:DodgerBlue;}
+
+/*  BACKGROUND COLOR Tomato  */
+.mpy-bg-tm {background-color:Tomato;}
+
+/*  BACKGROUND COLOR Orange */
+.mpy-bg-or {background-color:Orange;}
+
+/*  BACKGROUND COLOR Gray  */
+.mpy-bg-gr {background-color:Gray;}
+
+/*  BACKGROUND COLOR SlateBlue  */
+.mpy-bg-sb {background-color:SlateBlue;}
+
+
+/*  BACKGROUND COLOR Violet */
+.mpy-bg-vi {background-color:Violet;}
+
+/*  BACKGROUND COLOR MediumSeaGreen  */
+.mpy-bg-msg {background-color:MediumSeaGreen;}
+
+
+/*  BACKGROUND COLOR LightGray */
+.mpy-bg-lg {background-color:LightGray;}
+
+
+
+
+/*------------------------------------------BORDER ----------------------------------------------------------*/
+
+.mpy-border-dotted {border-style: dotted; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+.mpy-border-dashed {border-style: dashed; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+.mpy-border-solid {border-style: solid; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+.mpy-border-inset {border-style: inset; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+.mpy-border-outset {border-style: outset; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+.mpy-border-ridge {border-style: ridge; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+.mpy-border-groove {border-style: groove; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+.mpy-border-double {border-style: double; border-color:DodgerBlue; border-width: 2px; border-radius: 5px;}
+
+
+/*----------------------------------------- CARD WITH HOVER SHADOW ---------------------------------------------------------*/
+.mpy-card {
+  width: 250px;
+  height: 250px;
+  border-radius:10px;
+  border: 0px solid #ccc;
+  text-align: center;
+  background-color: DodgerBlue;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  transition: box-shadow .7s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.mpy-card:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+
+/*-----------------------------------------  BOX WITH SHADOW ---------------------------------------------------------*/
+.mpy-box {
+  width: 250px;
+  height: 250px;
+  border-radius:10px;
+  border: 0px solid #ccc;
+  text-align: center;
+  background-color: DodgerBlue;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
